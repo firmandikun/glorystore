@@ -27,7 +27,10 @@ h2 {
     }
 }
 
-
+.icon-fas {
+    color: white;
+    font-size: 30px;
+}
 @media (max-width: 544px) {  
   .titlee {
       font-size: 16px !important;
@@ -42,6 +45,7 @@ h2 {
   .tes_service{
       font-size: 24px;
   }
+
   .navb{
       margin: auto;
   }
