@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 33px;
+    line-height: 44px;
+}
+.smalll{
+    font-size: 17px;
+}
+
+
+@media (min-width : 700px) {
+    .zoom:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    }    
+    
+}
+@media (max-width : 1000px) {
+    .flex-tes{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 544px) {  
+  .titlee {
+      font-size: 16px !important;
+      line-height: 20px;
+      /* text-align: center; */
+      font-size: 25px;
+  } /*1rem = 16px*/
+  .text-tes{
+      text-align: center;
+  }
+  
+  .tes_service{
+      font-size: 24px;
+  }
+  .navb{
+      margin: auto;
+  }
+}
